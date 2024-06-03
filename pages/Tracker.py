@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from st_aggrid import AgGrid,GridUpdateMode
+from st_aggrid import AgGrid
+from st_aggrid import GridUpdateMode
 from st_aggrid import GridOptionsBuilder
 
 st.set_page_config(
