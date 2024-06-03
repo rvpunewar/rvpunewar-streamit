@@ -9,6 +9,7 @@ st.set_page_config(
     page_icon="excel"
 )
 
+st.write("new changes")
 def data_upload():
     df=pd.read_csv("Test_data.csv")
     return df
